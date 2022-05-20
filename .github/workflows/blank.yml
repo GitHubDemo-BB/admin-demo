@@ -31,6 +31,6 @@ jobs:
         uses: github/super-linter@v4
         env:
           VALIDATE_ALL_CODEBASE: false
-          PYTHON_PYLINT_CONFIG_FILE: true
+          VALIDATE_PYTHON: true
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
